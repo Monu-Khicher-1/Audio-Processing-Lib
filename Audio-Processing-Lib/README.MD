@@ -19,7 +19,3 @@ $./test audiosamplefile outputfile
 - And a outputfile will be generated if it doesn't exist. If it is already present then output will be appended to it.
 - `audiosamplefile` is text file which contains audio features.
 - Also 2 extra files will be produced "probability.txt" and "maxprobability.txt". Which are only for analysis purpose.
-
-## Copyright
- Monu (2020CS50432)
- Rajni Poonia (2020CS10371)
