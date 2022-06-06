@@ -1,2 +1,5 @@
 # Audio-Processing-Lib
-COL290
+## Problem Statement
+Implement a deep neural network (DNN) inference for classifying across 12 audio keywords (silence, unknown, yes, no, up, down, left, right, on, off, stop, go). [1x250] input features for each 1 second audio sample will be provided. Your DNN should comprise of FC1 [250x144] -> RELU -> FC2 [144x144] -> RELU -> FC3 [144X144] -> RELU -> FC4 [144x12] -> softmax. The output will be 12 floats representing probabilities for the 12 keywords, adding upto 1, the highest value giving the most probable keyword. Stitch together the most efficient functions you have written for FC, RELU, softmax so far. You will be given pre-trained weights and bias values and some 1 second audio clips with features extracted, to test your implementation. You will create your own audio processing library with an API we can call from a cpp program. Given feature vector of a 1 second audio clip, the API should return the top 3 keywords with highest softmax probabilities. 
+## References
+* https://www.cse.iitd.ac.in/~rijurekha/cop290_2022.html
